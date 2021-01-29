@@ -18,7 +18,7 @@
 
         <div class="row">
           <div class="col-md-6">
-            <h1 id="header-title">Item Lister</h1>
+            <h2 id="header-title">Amazing Item Lister</h2>
           </div>
           <!-- search box -->
           <div class="col-md-6 align-self-center">
@@ -26,7 +26,7 @@
               type="text"
               class="form-control"
               id="filter"
-              placeholder="Search Items..."
+              placeholder="Search for one of the items listed here!"
             />
           </div>
         </div>
@@ -36,20 +36,24 @@
       <div id="main" class="card card-body">
         <h2 class="title">Add Items</h2>
         <form id="addForm" class="form-inline mb-3">
-          <input type="text" class="form-control mr-2" id="item" />
+          <input type="text" placeholder="Add more items here!" class="form-control mr-2" id="item" />
           <input type="submit" class="btn btn-dark" value="Submit" />
         </form>
         <h2 class="title">Items</h2>
         <ul id="items" class="list-group">
-          <li class="list-group-item">Item 1<button class="btn btn-danger btn-sm float-right delete">X</button></li>
-          <li class="list-group-item">Item 2<button class="btn btn-danger btn-sm float-right delete">X</button></li>
-          <li class="list-group-item">Item 3<button class="btn btn-danger btn-sm float-right delete">X</button></li>
-          <li class="list-group-item">Item 4<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="Deletes an item!">Pizza<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item">In-N-Out<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item">Teriyaki Bowl<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item">Pho<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item">Sushi<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item">Sandwich<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item">Chicken Shwarma<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item">Black Bean Noodles<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+          <li class="list-group-item">Taco Bell<button class="btn btn-danger btn-sm float-right delete">X</button></li>
         </ul>
         <br>
         <div id="output"></div>
         <br>
-        <button class="btn btn-dark btn-block" id="button">Click Here</button>
         <span></span>
         <br>
         <!-- <div id="box" style="width:400px;height:200px;background:#f4f4f4"> -->

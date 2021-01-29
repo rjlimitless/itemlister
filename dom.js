@@ -330,7 +330,7 @@ function addItem(e){
 // removeItem function
 function removeItem(e){
     if(e.target.classList.contains('delete')){
-        if(confirm('Are you sure')){
+        if(confirm('Are you sure???')){
             var li = e.target.parentElement;
             itemList.removeChild(li);
         }
