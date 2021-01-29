@@ -12,16 +12,16 @@
     />
     <title>Item Lister</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <header id="main-header" class="bg-success text-white p-4 mb-3">
       <div class="container">
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-8">
             <h2 id="header-title">Amazing Item Lister</h2>
           </div>
           <!-- search box -->
-          <div class="col-md-6 align-self-center">
+          <div class="col-md-4">
             <input
               type="text"
               class="form-control"
@@ -33,14 +33,14 @@
       </div>
     </header>
     <div class="container">
-      <div id="main" class="card card-body">
+      <div id="main" class="card card-body bg-secondary">
         <h2 class="title">Add Items</h2>
         <form id="addForm" class="form-inline mb-3">
-          <input type="text" placeholder="Add more items here!" class="form-control mr-2" id="item" />
+          <input type="text" placeholder="Add more items here!" class="form-control mr-2 bg-light" id="item" />
           <input type="submit" class="btn btn-dark" value="Submit" />
         </form>
         <h2 class="title">Items</h2>
-        <ul id="items" class="list-group">
+        <ul id="items" class="list-group bg-light">
           <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="Deletes an item!">Pizza<button class="btn btn-danger btn-sm float-right delete">X</button></li>
           <li class="list-group-item">In-N-Out<button class="btn btn-danger btn-sm float-right delete">X</button></li>
           <li class="list-group-item">Teriyaki Bowl<button class="btn btn-danger btn-sm float-right delete">X</button></li>
